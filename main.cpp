@@ -13,6 +13,11 @@ void log(const std::string& log) {
     std::cout << log << '\n';
 }
 
+void hoppa()
+{
+
+}
+
 void pushData(Queue<int>& queue, int pushSize) {
     log("Push thread is started, desired push operation count : "+std::to_string(pushSize));
     for (int i=1; i <= pushSize; ++i) {
